@@ -22,11 +22,13 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
     "less": "^3.9.0",
     "mongoose": "^5.4.3",
     "nodemon": "^1.18.9",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "xml-js": "^1.6.9"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
@@ -35,6 +37,7 @@
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-stage-2": "^7.0.0",
+    "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.0",
     "eslint": "^5.12.0",

@@ -5,7 +5,6 @@ import Note from '../models/note';
 const connectionUrl = 'mongodb://admin:admin1234@ds253804.mlab.com:53804/notes';
 
 export function setUpConnection() {
-  console.log('ccc');
   mongoose.connect(
     connectionUrl,
     () => {
@@ -22,7 +21,7 @@ export function createNote(data) {
   const note = new Note({
     title: data.title,
     text: data.text,
-    color: data.colorm,
+    color: data.color,
     date: data.date,
   });
 
